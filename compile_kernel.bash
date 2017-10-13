@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# an script to compile and run linux kernel using qemu and gdb
+# a script to compile and run linux kernel using qemu and gdb
 # 
 # author: hadi_sfr(info@hadisafari.ir)
 # 
