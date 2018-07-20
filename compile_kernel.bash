@@ -41,7 +41,7 @@ mkinitramfs -o initrd.img
 cd ../../../
 mv arch/x86_64/boot/initrd.img initrd.img
 qemu-img create disk_img.ext4 2G
-mkfs -t ext4 disk_img.ext4 
+mkfs -t ext4 disk_img.ext4
 
 echo -e "${SIGN}starting qemu..."
 qemu-system-x86_64 -S -s \
